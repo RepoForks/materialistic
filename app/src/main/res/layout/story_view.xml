@@ -51,16 +51,14 @@
         android:layout_marginStart="@dimen/cardview_min_height"
         android:layout_toLeftOf="@id/comment"
         style="@style/textSubtitleStyle.Italic" />
-
     <io.github.hidroh.materialistic.widget.TintableTextView
-        android:id="@+id/tag"
+        android:id="@id/source"
         android:text="@string/loading_text"
-        android:layout_below="@id/source"
-        android:layout_marginLeft="64dp"
-        android:layout_marginStart="64dp"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="@dimen/cardview_min_height"
+        android:layout_marginStart="@dimen/cardview_min_height"
         android:layout_toLeftOf="@id/comment"
         style="@style/textSubtitleStyle.Italic" />
-
 
 
 
