@@ -52,16 +52,17 @@
         android:layout_toLeftOf="@id/comment"
         style="@style/textSubtitleStyle.Italic" />
 
-    <TextView
-        android:id="@id/posted"
+    <io.github.hidroh.materialistic.widget.TintableTextView
+        android:id="@+id/tag"
         android:text="@string/loading_text"
-        style="@style/textSubtitleStyle"
         android:layout_below="@id/source"
-        android:layout_marginLeft="@dimen/cardview_min_height"
-        android:layout_marginStart="@dimen/cardview_min_height"
+        android:layout_marginLeft="64dp"
+        android:layout_marginStart="64dp"
         android:layout_toLeftOf="@id/comment"
-        android:paddingBottom="@dimen/padding"
-        android:maxLines="1" />
+        style="@style/textSubtitleStyle.Italic" />
+
+
+
 
     <include
         layout="@layout/button_comment"
